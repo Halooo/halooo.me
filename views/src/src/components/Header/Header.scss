@@ -1,0 +1,120 @@
+
+
+.nav {
+
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  margin: 0 auto;
+  box-shadow: 0 0 1px rgba(0,0,0,0.25);
+  transition: background-color 0.3s ease-in-out;
+  background-color: #fff;
+  //height: 60px;
+  padding: 10px 60px;
+  z-index: 2;
+
+  .nav-wide {
+    display: none;
+    line-height: 40px;
+    height: 40px;
+    .logo {
+      float: left;
+      font-size: 1.5em;
+      line-height: 40px;
+      color: #2c3e50;
+      font-family: 'Dosis', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+      font-weight: 500;
+    }
+    .wide-link {
+      list-style-type: none;
+      padding: 0;
+      right: 30px;
+      padding-bottom: 3px;
+      height: 40px;
+      text-align: center;
+      margin: 0 0.6em;
+      a {
+        display: inline-block;
+        text-decoration: none;
+        // Adjust padding to increase/decrease the space between links.
+
+      }
+      &:hover {
+        border-bottom: 3px solid #3CA9D1;
+      }
+    }
+    .route--active {
+      font-weight: bold;
+      border-bottom: 3px solid #3CA9D1;
+    }
+  }
+
+  .nav-narrow {
+
+    i {
+      float: left;
+      cursor: pointer;
+      color: #000;
+      line-height:40px;
+    }
+
+    .narrow-links {
+      display: none;
+      position: absolute;
+      margin-top: 50px;
+
+      max-height: calc(100vh - 61px);
+      //right: -15px;
+      background-color: #fff;
+      padding: 10px 0;
+      border: 1px solid #ddd;
+      border-bottom-color: #ccc;
+      text-align: left;
+      border-radius: 4px;
+      white-space: nowrap;
+
+      .narrow-wrap {
+        line-height: 1.8em;
+        margin: 0;
+
+        .route--active {
+          font-weight: bold;
+        }
+
+        a {
+          //display: block;
+          text-decoration: none;
+          display: block;
+          float: left;
+          clear: left;
+          padding: 0 24px 0 20px;
+
+          &:hover {
+            color: #3CA9D1;
+          }
+        }
+      }
+
+    }
+
+  }
+}
+
+
+@media (min-width: 768px) {
+  .nav {
+    .nav-wide {
+      display: block;
+    }
+    .nav-narrow {
+      display: none;
+    }
+  }
+}
+//
+//.header-nav {
+//  text-decoration: none;
+//  padding-bottom: 3px;
+//}
