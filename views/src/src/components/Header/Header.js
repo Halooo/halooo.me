@@ -11,10 +11,8 @@ export const Header = React.createClass({
       linksEl.style.display = 'block';
     }
   },
-
   render() {
     return <div className="nav">
-
       <div className="nav-wide">
         <Link to="/" ClassName="logo">
           <span>HS</span>
@@ -57,10 +55,8 @@ export const Header = React.createClass({
           </div>
         </div>
       </div>
-
     </div>
   }
-
 });
 
 export default Header
