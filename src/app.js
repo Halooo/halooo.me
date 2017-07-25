@@ -25,13 +25,14 @@ app.use(convert(koaStatic(path.join(__dirname, '../public'), {
 
 // views
 app.use(views(path.join(__dirname, '../views'), {
-  extension: 'ejs'
+  // extension: 'ejs'
+  extension: 'html'
 }))
 
 // 500 error
-koaOnError(app, {
-  template: 'views/500.ejs'
-})
+// koaOnError(app, {
+//   template: 'views/500.ejs'
+// })
 
 // logger
 app.use(async (ctx, next) => {
@@ -47,10 +48,10 @@ app.use(async (ctx, next) => {
 })
 
 // 404
-app.use(async (ctx) => {
-  ctx.status = 404
-  await ctx.render('404')
-})
+// app.use(async (ctx) => {
+//   ctx.status = 404
+//   await ctx.render('404')
+// })
 
 // error logger
 app.on('error', async (err, ctx) => {
