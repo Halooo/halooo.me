@@ -12,8 +12,9 @@
   transition: background-color 0.3s ease-in-out;
   background-color: #fff;
   //height: 60px;
-  padding: 10px 60px;
+  padding: 10px 30px;
   z-index: 2;
+  position: fixed;
 
   .nav-wide {
     display: none;
@@ -53,6 +54,7 @@
 
   .nav-narrow {
 
+    z-index: 2;
     i {
       float: left;
       cursor: pointer;

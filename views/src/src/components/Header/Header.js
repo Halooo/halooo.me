@@ -14,15 +14,15 @@ export const Header = React.createClass({
   render() {
     return <div className="nav">
       <div className="nav-wide">
-        <Link to="/" ClassName="logo">
+        <Link to="/" className="logo">
           <span>HS</span>
         </Link>
-        <IndexLink to='/' className="wide-link" activeClassName='route--active'>
-          Home
-        </IndexLink>
-        <Link to='/counter' className="wide-link" activeClassName='route--active'>
-          Counter
-        </Link>
+        {/*<IndexLink to='/' className="wide-link" activeClassName='route--active'>*/}
+          {/*Home*/}
+        {/*</IndexLink>*/}
+        {/*<Link to='/counter' className="wide-link" activeClassName='route--active'>*/}
+          {/*Counter*/}
+        {/*</Link>*/}
         <Link to='/code' className="wide-link" activeClassName='route--active'>
           Code
         </Link>
