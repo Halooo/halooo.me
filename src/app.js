@@ -48,10 +48,10 @@ app.use(async (ctx, next) => {
 })
 
 // 404
-// app.use(async (ctx) => {
-//   ctx.status = 404
-//   await ctx.render('404')
-// })
+app.use(async (ctx) => {
+  ctx.status = 404
+  await ctx.render('index')
+})
 
 // error logger
 app.on('error', async (err, ctx) => {

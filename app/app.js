@@ -48,14 +48,14 @@ app.use(function () {var _ref2 = (0, _asyncToGenerator3.default)(_regenerator2.d
 
 
 // 404
-// app.use(async (ctx) => {
-//   ctx.status = 404
-//   await ctx.render('404')
-// })
+app.use(function () {var _ref3 = (0, _asyncToGenerator3.default)(_regenerator2.default.mark(function _callee3(ctx) {return _regenerator2.default.wrap(function _callee3$(_context3) {while (1) {switch (_context3.prev = _context3.next) {case 0:
+            ctx.status = 404;_context3.next = 3;return (
+              ctx.render('index'));case 3:case 'end':return _context3.stop();}}}, _callee3, undefined);}));return function (_x5) {return _ref3.apply(this, arguments);};}());
+
 
 // error logger
-app.on('error', function () {var _ref3 = (0, _asyncToGenerator3.default)(_regenerator2.default.mark(function _callee3(err, ctx) {return _regenerator2.default.wrap(function _callee3$(_context3) {while (1) {switch (_context3.prev = _context3.next) {case 0:
-            console.log('error occured:', err);case 1:case 'end':return _context3.stop();}}}, _callee3, undefined);}));return function (_x5, _x6) {return _ref3.apply(this, arguments);};}());
+app.on('error', function () {var _ref4 = (0, _asyncToGenerator3.default)(_regenerator2.default.mark(function _callee4(err, ctx) {return _regenerator2.default.wrap(function _callee4$(_context4) {while (1) {switch (_context4.prev = _context4.next) {case 0:
+            console.log('error occured:', err);case 1:case 'end':return _context4.stop();}}}, _callee4, undefined);}));return function (_x6, _x7) {return _ref4.apply(this, arguments);};}());
 
 
 var port = parseInt(_config2.default.port || '3000');
