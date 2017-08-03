@@ -164,20 +164,6 @@ export const AboutView = React.createClass({
         <article className="work">
           <h2>Work</h2>
           <figure>
-            <figcaption>GOME Electrical Appliances</figcaption>
-            <h4>Front-end Engineer</h4>
-            <h6>May 2016 - Sept 2016</h6>
-            <h6>Beijing, China</h6>
-            <p>Maintained and developed multiple data and infrastructure platforms for internal use</p>
-            <p>Displayed excellent teamwork skill while collaborating with eight other team members</p>
-            <div className="show-list">
-              <a><b>Projects <i className="fa fa-angle-down" aria-hidden="true" /></b></a>
-              <ul className="courses">
-                <li>{gomeLi}</li>
-              </ul>
-            </div>
-          </figure>
-          <figure>
             <figcaption>AppHelp by AppDirect</figcaption>
             <h4>Web Application Developer</h4>
             <h6>Jan 2017 - Sept 2016</h6>
@@ -191,6 +177,20 @@ export const AboutView = React.createClass({
               <a><b>Projects <i className="fa fa-angle-down" aria-hidden="true" /></b></a>
               <ul className="courses">
                 <li>{apphelpLi}</li>
+              </ul>
+            </div>
+          </figure>
+          <figure>
+            <figcaption>GOME Electrical Appliances</figcaption>
+            <h4>Front-end Engineer</h4>
+            <h6>May 2016 - Sept 2016</h6>
+            <h6>Beijing, China</h6>
+            <p>Maintained and developed multiple data and infrastructure platforms for internal use</p>
+            <p>Displayed excellent teamwork skill while collaborating with eight other team members</p>
+            <div className="show-list">
+              <a><b>Projects <i className="fa fa-angle-down" aria-hidden="true" /></b></a>
+              <ul className="courses">
+                <li>{gomeLi}</li>
               </ul>
             </div>
           </figure>

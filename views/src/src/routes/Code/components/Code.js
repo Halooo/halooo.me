@@ -14,7 +14,6 @@ export const Code = (props) => (
     <p>
       Demos are in Mandarin and English
     </p>
-
     <h4>
       Arrays
     </h4>
@@ -99,12 +98,11 @@ export const Code = (props) => (
     </p>
 
     <h3>
-      Chamber Crawler 3000 (<a href="https://github.com/Halooo/cc3k">source code</a>)
+      Waterloo Helper (<a href="https://github.com/Halooo/cc3k">source code</a>)
     </h3>
     <p>
       A rouge-like console game in C++. It is a practice project of OOP design patterns. The game design UML is in uml.pdf. Game supports WASD controls for both Windows and Unix platforms.
     </p>
-
   </div>
 );
 
