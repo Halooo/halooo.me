@@ -98,7 +98,7 @@ export const Code = (props) => (
     </p>
 
     <h3>
-      <a href="https://http://vendingmachinexam.netlify.com/">Waterloo Helper</a>
+      <a href="https://vendingmachinexam.netlify.com/">Waterloo Helper</a>
     </h3>
     <p>
       Some useful tools for University of Waterloo students look up their exam schedules and find a vending machine in a specific building

@@ -37,7 +37,8 @@ webpackConfig.entry = {
 // Bundle Output
 // ------------------------------------
 webpackConfig.output = {
-  filename   : `[name].[${project.compiler_hash_type}].js`,
+  // CHANGED filename   : `[name].[${project.compiler_hash_type}].js`,
+  filename   : `js/[name].[${project.compiler_hash_type}].js`,
   path       : project.paths.dist(),
   publicPath : project.compiler_public_path
 }
@@ -159,23 +160,23 @@ webpackConfig.sassLoader = {
   includePaths : project.paths.client('styles')
 }
 
-webpackConfig.postcss = [
-  cssnano({
-    autoprefixer : {
-      add      : true,
-      remove   : true,
-      browsers : ['last 2 versions']
-    },
-    discardComments : {
-      removeAll : true
-    },
-    discardUnused : false,
-    mergeIdents   : false,
-    reduceIdents  : false,
-    safe          : true,
-    sourcemap     : true
-  })
-]
+// webpackConfig.postcss = [
+//   cssnano({
+//     autoprefixer : {
+//       add      : true,
+//       remove   : true,
+//       browsers : ['last 2 versions']
+//     },
+//     discardComments : {
+//       removeAll : true
+//     },
+//     discardUnused : false,
+//     mergeIdents   : false,
+//     reduceIdents  : false,
+//     safe          : true,
+//     sourcemap     : true
+//   })
+// ]
 
 // File loaders
 /* eslint-disable */
@@ -208,7 +209,8 @@ if (!__DEV__) {
   })
 
   webpackConfig.plugins.push(
-    new ExtractTextPlugin('[name].[contenthash].css', {
+    //  CHANGED '[name].[contenthash].css'
+    new ExtractTextPlugin('style/[name].[contenthash].css', {
       allChunks : true
     })
   )
