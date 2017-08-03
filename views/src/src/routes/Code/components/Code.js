@@ -98,10 +98,10 @@ export const Code = (props) => (
     </p>
 
     <h3>
-      Waterloo Helper (<a href="https://github.com/Halooo/cc3k">source code</a>)
+      <a href="https://http://vendingmachinexam.netlify.com/">Waterloo Helper</a>
     </h3>
     <p>
-      A rouge-like console game in C++. It is a practice project of OOP design patterns. The game design UML is in uml.pdf. Game supports WASD controls for both Windows and Unix platforms.
+      Some useful tools for University of Waterloo students look up their exam schedules and find a vending machine in a specific building
     </p>
   </div>
 );

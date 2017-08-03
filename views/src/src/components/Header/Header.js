@@ -38,11 +38,11 @@ export const Header = React.createClass({
               Home
             </IndexLink>
           </div>
-          <div className="narrow-wrap" onClick={this.toggle}>
-            <Link to='/counter' className="narrow-link" activeClassName='route--active'>
-              Counter
-            </Link>
-          </div>
+          {/*<div className="narrow-wrap" onClick={this.toggle}>*/}
+            {/*<Link to='/counter' className="narrow-link" activeClassName='route--active'>*/}
+              {/*Counter*/}
+            {/*</Link>*/}
+          {/*</div>*/}
           <div className="narrow-wrap" onClick={this.toggle}>
             <Link to='/code' className="narrow-link" activeClassName='route--active'>
               Code
@@ -50,7 +50,7 @@ export const Header = React.createClass({
           </div>
           <div className="narrow-wrap" onClick={this.toggle}>
             <Link to='/about' className="narrow-link" activeClassName='route--active'>
-              Code
+              About
             </Link>
           </div>
         </div>
