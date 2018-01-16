@@ -37,7 +37,7 @@ export const Code = (props) => (
     </p>
     <h4>
       <a href="https://jsbin.com/locofiv/1/edit?html,js,output">
-        Black and Red Tree (ES6 classes)
+        Red and Black Tree (ES6 classes)
       </a>
     </h4>
     <p className="desc">
@@ -49,7 +49,7 @@ export const Code = (props) => (
       </a>
     </h4>
     <p className="desc">
-      Visualized General Tree with depth-first search, add, delete node(s)
+      Visualized General Tree with depth-first search, add and delete node(s)
     </p>
 
     <h4>
@@ -101,7 +101,7 @@ export const Code = (props) => (
       <a href="https://vendingmachinexam.netlify.com/">Waterloo Helper</a>
     </h3>
     <p>
-      Some useful tools for University of Waterloo students look up their exam schedules and find a vending machine in a specific building
+      Some tools for University of Waterloo students to look up their exam schedules or find a vending machine in a specific building
     </p>
   </div>
 );

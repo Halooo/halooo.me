@@ -20,7 +20,7 @@ export const AboutView = React.createClass({
       ],
       applebyCourses:{
         "Courses": [
-          "AP Computer Science (4.0)",
+          "AP Computer Science (5.0)",
           "AP Calculus BC (5.0)",
           "AP Chemistry (5.0)",
           "AP Physics (4.0)",
@@ -69,6 +69,9 @@ export const AboutView = React.createClass({
           "and broadcast real time information to Slack chanel",
           "Integrate toolbox for developers' daily use including JSON(JWT) encode/decode tool and etc."
         ]
+      },
+      shoplogixProj: {
+
       }
     }
   },
@@ -164,9 +167,19 @@ export const AboutView = React.createClass({
         <article className="work">
           <h2>Work</h2>
           <figure>
+            <figcaption>Shoplogix</figcaption>
+            <h4>Front-end Developer</h4>
+            <h6>Sept 2017 - Dec 2017</h6>
+            <h6>Oakville, Ontario</h6>
+            <p>Contributed over 10,000 lines of code to the company’s core factory performance management product</p>
+            <p>Significantly enhanced user interactions and the look of the product</p>
+            <p>Researched and presented third party libraries to the team and approved to be used in production</p>
+            <p>Established strong relationship and friendship with co-workers</p>
+          </figure>
+          <figure>
             <figcaption>AppHelp by AppDirect</figcaption>
             <h4>Web Application Developer</h4>
-            <h6>Jan 2017 - Sept 2016</h6>
+            <h6>Jan 2017 - April 2017</h6>
             <h6>Montréal, Québec</h6>
             <p>Developed web applications and helped front-end group transfer from AngularJS to React.js</p>
             <p>Displayed strong self-motivation at work and self-learning skills</p>
