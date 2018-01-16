@@ -2,7 +2,7 @@
 
 ## React + Express.js
 
-- frontent: React + Redux + React router
+- front-end: React + Redux + React router
 
 - backend: KOA2
 
